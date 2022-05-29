@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/avia-flights/static/css/main.39a295a4.css",
+    "main.js": "/avia-flights/static/js/main.68615710.js",
+    "static/js/787.28cb0dcd.chunk.js": "/avia-flights/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.png": "/avia-flights/static/media/logo.28bc2ea47cbd97cbb7e0.png",
+    "index.html": "/avia-flights/index.html",
+    "main.39a295a4.css.map": "/avia-flights/static/css/main.39a295a4.css.map",
+    "main.68615710.js.map": "/avia-flights/static/js/main.68615710.js.map",
+    "787.28cb0dcd.chunk.js.map": "/avia-flights/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39a295a4.css",
+    "static/js/main.68615710.js"
+  ]
+}
