@@ -1,0 +1,7 @@
+.cards__header{
+    background-color: #1E90FF;
+    height: 50px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}

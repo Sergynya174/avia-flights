@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./block/App.css);
+@import url(./block/sidebar/sidebar.css);
+@import url(./block/sidebar/__sorting/sidebar__sorting.css);
+@import url(./block/sidebar/__input/sidebar__input.css);
+@import url(./block/sidebar/__fake/sidebar__fake.css);
+@import url(./block/container/container.css);
+@import url(./block/cards/cards.css);
+@import url(./block/cards/__header/cards__header.css);
+@import url(./block/cards/__header-container/cards__header-container.css);
+@import url(./block/cards/__price/cards__price.css);
+@import url(./block/cards/__logo/cards__logo.css);
+@import url(./block/cards/__to/cards__to.css);
+@import url(./block/cards/__duration/cards__duration.css);
+@import url(./block/cards/__times/cards__times.css);
+@import url(./block/cards/__itinerary/cards__itinerary.css);
+@import url(./block/cards/__time-container/cards__time-container.css);
+@import url(./block/cards/__departure-time/cards__departure-time.css);
+@import url(./block/cards/__arrival-time/cards__arrival-time.css);
+@import url(./block/cards/__transfer/cards__transfer.css);
+@import url(./block/cards/__transfer-num/cards__transfer-num.css);
+@import url(./block/cards/__line/cards__line.css);
+@import url(./block/cards/__line/_grey/cards__line_grey.css);
+@import url(./block/cards/__line//_blue/cards__line_blue.css);
+@import url(./block/cards/__button/cards__button.css);
+@import url(./block/cards/__button/_place/cards__button_place.css);
+@import url(./block/cards/__button/_show/cards__button_show.css);
+@import url(./block/cards/__arrival-airport-uid/cards__arrival-airport-uid.css);
+@import url(./block/cards/__departure-airport-uid/cards__departure-airport-uid.css);
+@import url(./block/cards/__arrival-date/cards__arrival-date.css);
+@import url(./block/cards/__departure-date/cards__departure-date.css);
+@import url(./block/cards/__aircompany/cards__aircompany.css);

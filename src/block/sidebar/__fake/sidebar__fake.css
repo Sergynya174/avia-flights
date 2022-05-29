@@ -1,0 +1,23 @@
+.sidebar__fake{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
+    position: relative;
+    border-radius: 50%;
+}
+
+.sidebar__fake::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: blue;
+    opacity: 0;
+    transition: .2s;
+    border-radius: 50%;
+}

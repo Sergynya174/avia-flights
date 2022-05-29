@@ -1,0 +1,6 @@
+.cards__line_grey{
+    max-width: 50%;
+    min-width: 30%;
+    height: 0;
+    border: 0.1px solid #A9A9A9;
+}

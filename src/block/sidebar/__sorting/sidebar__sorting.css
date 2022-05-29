@@ -1,0 +1,4 @@
+.sidebar__sorting{
+    display: flex;
+    flex-direction: column;
+}
