@@ -11,14 +11,19 @@ import {
 } from "@mui/material/";
 import { json } from "../utils/Constans";
 
-function Sidebar() {
+function Sidebar({selectedChangeFilter, handleChange, searchValue}) {
 
   const el = json.result.flights;
 
-  const button = el.map((item) => {
-      return(
-        <FormControlLabel control={<Checkbox />} label={item.flight.carrier.caption} />
-      ) 
+  const array = el.reduce((uniq, item) => {
+    const fly = item.flight.carrier.caption;
+    return uniq.includes(fly) ? uniq : [...uniq, fly];
+  }, [])
+
+  const button = array.map((item) => {
+    return(
+      <FormControlLabel id='button' control={<Checkbox />} label={item} />
+    )  
   })
 
   return (
@@ -90,7 +95,7 @@ function Sidebar() {
       >
         Авиакомпании
       </FormLabel>
-      <FormGroup>
+      <FormGroup >
         {button}
       </FormGroup>
     </FormControl>

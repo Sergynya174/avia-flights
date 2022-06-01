@@ -2,14 +2,13 @@ import React from "react";
 import logo from "../image/logo.png";
 import { json } from "../utils/Constans";
 
-function Cards({ onCarrient }) {
-  function handleClick() {
-    onCarrient();
-  }
+function Cards({showMore}) {
+ 
   const el = json.result.flights;
-
-  const cards = el.map((item) => {
-    return (
+  const numberOfItems = showMore ? el.length : 2;
+  
+  const cards = el.slice(0, numberOfItems).map((item) => {
+      return (
       <div className="container">
         <div className="cards__header">
           <img alt="лого" className="cards__logo" src={logo} />
@@ -96,15 +95,15 @@ function Cards({ onCarrient }) {
           </div>
         </div>
         <button
-          onClick={handleClick}
           className="cards__button cards__button_place"
           type="submit"
         >
           выбрать
         </button>
       </div>
-    );
-  });
-  return <div className="cards">{cards}</div>;
+    );}
+  );
+  return <div className="cards">{cards}</div>
+
 }
 export default Cards;
